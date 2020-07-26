@@ -1,9 +1,11 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import Menu from './../../modules/Dashboard/Menu';
 
 const Dashboard: React.FC = () => {
-  return <h1>Dashboard</h1>;
+  return (
+    <Menu />
+  );
 }
 
 export default Dashboard;

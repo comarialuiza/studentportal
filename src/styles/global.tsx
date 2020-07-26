@@ -1,6 +1,10 @@
 import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
+    html {
+        --primaryColor: #15518b;
+    }
+
     * {
         margin: 0;
         padding: 0;

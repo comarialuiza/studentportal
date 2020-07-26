@@ -1,9 +1,15 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import LastNews from './../../modules/Login/LastNews';
+import Form from './../../modules/Login/Form';
 
 const Login: React.FC = () => {
-  return <h1>Login</h1>;
+  return (
+    <>
+      <LastNews />
+      <Form />
+    </>
+  );
 }
 
 export default Login;
