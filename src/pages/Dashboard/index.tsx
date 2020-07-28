@@ -1,10 +1,9 @@
 import React from 'react';
-
-import Menu from './../../modules/Dashboard/Menu';
+import DashboardContainer from './../../modules/Dashboard/DashboardContainer';
 
 const Dashboard: React.FC = () => {
   return (
-    <Menu />
+    <DashboardContainer />
   );
 }
 
