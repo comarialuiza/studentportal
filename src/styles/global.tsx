@@ -7,6 +7,7 @@ export const GlobalStyle = createGlobalStyle`
         --secondaryColor: #383838;
         --tertiaryColor: #242424;
         --quaternaryColor: #f7f7f7;
+        --borderRadius: 10px;
     }
 
     * {

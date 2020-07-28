@@ -21,7 +21,7 @@ const Menu: React.FC = () => {
             </Holder>
 
             <Holder>
-                <p>Sair</p>
+                <Link to="/login">Sair</Link>
             </Holder>
         </Container>
     );
