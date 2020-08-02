@@ -2,12 +2,15 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     html {
-        /* --primaryColor: #15518b; */
+        --white: #fff;
+        --manualColor: #15518b;
         --primaryColor: #2d2d2d;
         --secondaryColor: #383838;
         --tertiaryColor: #242424;
         --quaternaryColor: #f7f7f7;
         --borderRadius: 10px;
+        --padding: 12px;
+        --paddingLarge: 20px;
     }
 
     * {
