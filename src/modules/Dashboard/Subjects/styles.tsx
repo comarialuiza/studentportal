@@ -31,7 +31,7 @@ export const SubjectCode = styled.span`
     display: block;
     border-radius: 5px;
     padding: 5px 10px;
-    background-color: var(--secondaryColor);
+    background-color: var(--mainBg);
     max-width: max-content;
     color: var(--white);
 `;

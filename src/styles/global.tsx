@@ -4,6 +4,8 @@ export const GlobalStyle = createGlobalStyle`
     html {
         --white: #fff;
         --manualColor: #15518b;
+        --mainBg: #A5B9B9;
+        --accentColor: #CCA4A6;
         --primaryColor: #2d2d2d;
         --secondaryColor: #383838;
         --tertiaryColor: #242424;
